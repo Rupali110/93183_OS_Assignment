@@ -1,0 +1,15 @@
+sunbeam@92666AkashKPDESD:~/Desktop/EOS/My assignments/Day8assign/Day8-qn1$ ls
+circle.c  circle.o  main.o       rectangle.h  square.c  square.o
+circle.h  main.c    rectangle.c  rectangle.o  square.h
+sunbeam@92666AkashKPDESD:~/Desktop/EOS/My assignments/Day8assign/Day8-qn1$ gcc -c circle.c
+sunbeam@92666AkashKPDESD:~/Desktop/EOS/My assignments/Day8assign/Day8-qn1$ gcc -c square.c
+sunbeam@92666AkashKPDESD:~/Desktop/EOS/My assignments/Day8assign/Day8-qn1$ gcc -c rectangle.c
+sunbeam@92666AkashKPDESD:~/Desktop/EOS/My assignments/Day8assign/Day8-qn1$ gcc -c main.c
+sunbeam@92666AkashKPDESD:~/Desktop/EOS/My assignments/Day8assign/Day8-qn1$ gcc -o program.out circle.o square.o rectangle.o main.o
+sunbeam@92666AkashKPDESD:~/Desktop/EOS/My assignments/Day8assign/Day8-qn1$ ./program.out
+Area of circle :12
+Area of rectangle :12
+Area of square :9
+sunbeam@92666AkashKPDESD:~/Desktop/EOS/My assignments/Day8assign/Day8-qn1$ 
+
+

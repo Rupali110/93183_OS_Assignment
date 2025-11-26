@@ -1,0 +1,2 @@
+int rectangle(int, int);
+
